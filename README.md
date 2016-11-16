@@ -29,9 +29,9 @@ See http://www.shoup.net/ntl/ to download NTL.
 Unfortunately, the cdga-generators currently makes a few Windows system calls and as such will only compile on Windows. It would be very easy to replace those calls with a portable alternative and I would be happy to do so if anyone contacts me to request a Linux or Mac port. I expected the task to be very easy and quick.
 
 # Input file example 1
-
-### Example 1 from p.439 of [FHT]
-### This is an elliptic model, hence top class degree: 6+4+2+2 - (1+3) = 10
+```
+# Example 1 from p.439 of [FHT]
+# This is an elliptic model, hence top class degree: 6+4+2+2 - (1+3) = 10
 
 Generators:
 a 2
@@ -56,7 +56,7 @@ filename = output.txt
 extension-output = output-extension.txt
 degree = 2..30
 category = -1
-
+```
 # Input file example 2
 
 ## This is for the example 2 of [GJ]
