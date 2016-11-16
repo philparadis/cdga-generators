@@ -10,7 +10,15 @@ Much more documentation about the program behaviors, such as the exact input exp
 THe program should be considered research code and may contain many undocumented bugs. It is recommended to read the source code to understand exactly what the program is doing. I made an effort to document the entire program so that another person can make sense of it.
 
 # Usage
-./cdga-generators.exe 
+There are two ways to run the program. The first one is to pass the input file as the first argument, for example:
+```
+./cdga-generators.exe input_example1.txt
+```
+Alternatively, you can just run the program with no argument
+```
+./cdga-generators.exe
+```
+and you will be prompted for the name of an input file.
 
 # Input file example 1
 
