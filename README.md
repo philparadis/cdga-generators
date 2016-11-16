@@ -58,11 +58,11 @@ degree = 2..30
 category = -1
 ```
 # Input file example 2
-
-## This is for the example 2 of [GJ]
-## Category for this space is: 5
-## This space is elliptic
-## Top class is in degree: 15 - 2 = 13
+```
+# This is for the example 2 of [GJ]
+# Category for this space is: 5
+# This space is elliptic
+# Top class is in degree: 15 - 2 = 13
 
 Generators:
 a 2
@@ -85,10 +85,10 @@ filename = output-gj2-output.txt
 extension-output = output-gj2-extension.txt
 degree = 2..29
 category = 5
-
+```
 # Example 3
-
-## This is for the space of exercise #1, p.405 of [FHT], M = Sp(5) / SU(5)
+```
+# This is for the space of exercise #1, p.405 of [FHT], M = Sp(5) / SU(5)
 
 Generators:
 a 6
@@ -111,14 +111,14 @@ filename = output-sp5-su5.txt
 extension-output = output-sp5-su5-extension.txt
 degree = 2..15
 category = -1
-
+```
 # Input file example 4
+```
+# This is the formal model (including only generators up to degree 10) of the cohomology
+# of the counter-example #3
 
-## This is the formal model (including only generators up to degree 10) of the cohomology
-## of the counter-example #3
-
-## Since cup-length = 3, it follows that category = 3
-## The conjecture predicts a retraction index of 2.
+# Since cup-length = 3, it follows that category = 3
+# The conjecture predicts a retraction index of 2.
 
 Generators:
 a 2
@@ -212,14 +212,14 @@ d(w_6) = -a * b^2 * c + a * v_4
 d(w_7) = -b^3 * c + b * v_4
 d(w_8) = -b^3 * c + a * v_5
 
-## No perturbation on v_1, ..., v_5
+# No perturbation on v_1, ..., v_5
 
-## D(d(w_1)) = D(-a^3 * c + b * v_1) = -a^4 * b + b * a^4 = 0
+# D(d(w_1)) = D(-a^3 * c + b * v_1) = -a^4 * b + b * a^4 = 0
 
-## rho(d(v_1)) = rho(a^4) = a^4
-## rho(v_1) = a * e
+# rho(d(v_1)) = rho(a^4) = a^4
+# rho(v_1) = a * e
 
-## Cannot be avoided, so r_0 <= 2.
+# Cannot be avoided, so r_0 <= 2.
 
 Output:
 filename = junk.txt
@@ -227,14 +227,14 @@ extension-output = extension.txt
 degree = 10..10
 category = 3
 compute = extension
-
+```
 # Input file example 5
+```
+# This is for the product of Sp(3) biquotient with itself
 
-## This is for the product of Sp(3) biquotient with itself
-
-## Category: 6
-## Top class is in degree: 24
-## Retraction index is greater or equal to 4.
+# Category: 6
+# Top class is in degree: 24
+# Retraction index is greater or equal to 4.
 
 Generators:
 a 4
@@ -506,3 +506,4 @@ filename = output-test3.txt
 extension-output = output-test3-extension.txt
 degree = 29
 category = 6
+```
