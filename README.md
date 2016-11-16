@@ -30,8 +30,8 @@ Unfortunately, the cdga-generators currently makes a few Windows system calls an
 
 # Input file example 1
 
-## Example 1 from p.439 of [FHT]
-## This is an elliptic model, hence top class degree: 6+4+2+2 - (1+3) = 10
+### Example 1 from p.439 of [FHT]
+### This is an elliptic model, hence top class degree: 6+4+2+2 - (1+3) = 10
 
 Generators:
 a 2
