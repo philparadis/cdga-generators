@@ -20,6 +20,14 @@ Alternatively, you can just run the program with no argument
 ```
 and you will be prompted for the name of an input file.
 
+# Dependencies
+There are only one dependency for compiling cdga-generators, namely NTL, a number theory library which I use exclusively for its LLL algorithm. The website of NTL says "NTL is a high-performance, portable C++ library providing data structures and algorithms for manipulating signed, arbitrary length integers, and for vectors, matrices, and polynomials over the integers and over finite fields.".
+
+See http://www.shoup.net/ntl/ to download NTL.
+
+# Platforms supported
+Unfortunately, the cdga-generators currently makes a few Windows system calls and as such will only compile on Windows. It would be very easy to replace those calls with a portable alternative and I would be happy to do so if anyone contacts me to request a Linux or Mac port. I expected the task to be very easy and quick.
+
 # Input file example 1
 
 ## Example 1 from p.439 of [FHT]
